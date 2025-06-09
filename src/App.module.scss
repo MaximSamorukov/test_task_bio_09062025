@@ -1,0 +1,182 @@
+.container {
+  width: fit-content;
+  height: 550px;
+  border: 1px solid red;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 5px;
+  gap: 30px;
+}
+
+.input {
+  all: unset;
+  width: 350px;
+  height: 40px;
+  border: 2px solid white;
+  color: white;
+  border-radius: 10px;
+  font-size: 20px;
+  box-sizing: border-box;
+  padding-left: 10px;
+  &Container {
+    width: 350px;
+  }
+
+  &s {
+    &Container {
+      height: 70px;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      align-items: flex-end;
+      justify-content: center;
+      gap: 20px;
+    }
+  }
+}
+
+.result {
+  &Container {
+    width: fit-content;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  &FirstLine {
+    width: 550px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  &SecondLine {
+    width: 550px;
+    height: 30px;
+  }
+}
+
+.warning {
+  &Container {
+    height: 20px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  &Text {
+    font-size: 16px;
+    color: red;
+  }
+}
+$C: #ffea00;
+
+$A: #67e4a6;
+$I: #67e4a6;
+$L: #67e4a6;
+$M: #67e4a6;
+$F: #67e4a6;
+$W: #67e4a6;
+$Y: #67e4a6;
+$V: #67e4a6;
+$P: #67e4a6;
+
+$G: #c4c4c4;
+
+$D: #fc9cac;
+$E: #fc9cac;
+
+$K: #bb99ff;
+$R: #bb99ff;
+
+$S: #80bfff;
+$T: #80bfff;
+$H: #80bfff;
+$Q: #80bfff;
+$N: #80bfff;
+
+.firstLineLetter {
+  width: 12px;
+  display: inline-block;
+  color: black;
+  text-align: center;
+}
+.secondLineLetter {
+  width: 12px;
+  display: inline-block;
+  color: grey;
+  text-align: center;
+}
+
+.C {
+  background-color: $C;
+}
+
+.A {
+  background-color: $A;
+}
+.I {
+  background-color: $I;
+}
+.L {
+  background-color: $L;
+}
+.M {
+  background-color: $M;
+}
+.F {
+  background-color: $F;
+}
+.W {
+  background-color: $W;
+}
+.Y {
+  background-color: $Y;
+}
+.V {
+  background-color: $V;
+}
+.P {
+  background-color: $P;
+}
+
+.G {
+  background-color: $G;
+}
+
+.D {
+  background-color: $D;
+}
+.E {
+  background-color: $E;
+}
+
+.K {
+  background-color: $K;
+}
+.R {
+  background-color: $R;
+}
+
+.S {
+  background-color: $S;
+}
+.T {
+  background-color: $T;
+}
+.H {
+  background-color: $H;
+}
+.Q {
+  background-color: $Q;
+}
+.N {
+  background-color: $N;
+}
