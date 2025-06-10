@@ -1,54 +1,21 @@
-# React + TypeScript + Vite
+# Тестовое задание на вакансию Frontend-разработчика (React)  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🔗 Вакансия: [hh.ru/vacancy/121491070](https://hh.ru/vacancy/121491070?hhtmFrom=vacancy_response)
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 👤 Соискатель  
 
-## Expanding the ESLint configuration
+**Саморуков Максим Львович**
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 📇 Контактные данные
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+- 📱 Telegram: [@M_Camopykoff](https://t.me/M_Camopykoff)  
+- 📄 HeadHunter: [hh.ru/resume](https://hh.ru/resume/3bbefd55ff0ecc1e720039ed1f4d496e384f37)  
+- 📎 Резюме (PDF): [Google Drive](https://drive.google.com/file/d/1SHRP7_VE3DZzP3t8L5iGJYpe-NDw8iz9/view?usp=drive_link)  
+- 🌐 Резюме (React): [react-resume-sandy.vercel.app](https://react-resume-sandy.vercel.app/)  
+- 💻 GitHub: [github.com/MaximSamorukov](https://github.com/MaximSamorukov)  
+- 📞 Телефон: +7 925 026 17 37  
+- 📧 Email: [maxim.samorukov@gmail.com](mailto:maxim.samorukov@gmail.com)
